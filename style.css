@@ -56,7 +56,7 @@
 
     padding: 20px;
 }
-.right #logo {
+.right img {
     display: none;
 }
 .card {
@@ -232,7 +232,7 @@
     .left {
         display: none;
     } 
-    . right #logo {
+    . right img {
         display: block;
     }
 }
