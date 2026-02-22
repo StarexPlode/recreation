@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <section class="left">
+            <section class="logotext">
+                <img src="images/logo.webp">
+                <h1>Welcome to <span>Focusami</span></h1>
+            </section>
+        </section>
+        <section class="right">
+            <div class="card">
+                <div class="top">
+                    <h1>Get Started</h1>
+                    <p>Sign in to continue your focus journey</p>
+                </div>
+                <div class="signin">
+                        <div class="toggle">
+                            <input type="radio" name="sign" id="signin" checked>
+                            <input type="radio" name="sign" id="signup">
+
+                            <label for="signin">Sign In</label>
+                            <label for="signup">Sign Up</label>
+                        </div>
+                </div>
+                <div class="bottom">
+                    <div class="buttons">
+                    <button>Continue with Google</button>
+                    <button id="discord">Continue with Discord</button>
+                    </div>
+                    <div class="divider">
+                        <span>OR</span>
+                    </div>
+                    <div class="toggleotp">
+                        <input type="radio" name="otp" id="password" checked>
+                        <input type="radio" name="otp" id="otp">
+
+                        <label for="password">Password</label>
+                        <label for="otp">Magic OTP</label>
+                    </div>
+                    <form class="forms">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="login" id="email" placeholder="example@mail.com" required>
+                        <label for="pass">Password</label>
+                        <input type="password" name="login" id="pass"placeholder="abc123!@#" required>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
