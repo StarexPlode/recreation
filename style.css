@@ -56,6 +56,9 @@
 
     padding: 20px;
 }
+.right #logo {
+    display: none;
+}
 .card {
     display: grid;
     grid-auto-rows: auto;
@@ -229,4 +232,7 @@
     .left {
         display: none;
     } 
+    . right #logo {
+        display: block;
+    }
 }
