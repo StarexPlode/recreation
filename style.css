@@ -56,8 +56,6 @@
 }
 .right #logo {
     display: none;
-
-    width: 80px;
 }
 .card {
     display: grid;
@@ -235,6 +233,6 @@
         display: none;
     }
     .right #logo {
-        display: block;
+        display: flex;
     }
 }
