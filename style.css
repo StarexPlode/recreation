@@ -63,11 +63,10 @@
     display: grid;
     grid-auto-rows: auto;
 
-    margin: 0 20px;
+    margin: 0 40px;
     
     width: 100%;
     max-width: 400px;
-    min-width: 300px;
 
     border: solid 2px black;
     border-radius: 0.5rem;
