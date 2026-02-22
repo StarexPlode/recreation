@@ -51,6 +51,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.right #logo {
+    display: none;
+
+    width: 80px;
 }
 .card {
     display: grid;
@@ -227,5 +234,8 @@
     }
     .left {
         display: none;
+    }
+    .right #logo {
+        display: block;
     }
 }
