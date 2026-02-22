@@ -60,7 +60,7 @@
     display: grid;
     grid-auto-rows: auto;
     
-    width: 100%;
+    width: 90%;
     max-width: 400px;
 
     border: solid 2px black;
