@@ -4,7 +4,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: red;
 }
-.body {
+body {
     font-size: 100%;
 }
 .page {
@@ -68,7 +68,6 @@
     grid-auto-rows: auto;
     
     width: 100%;
-    min-width: 380px;
     max-width: 400px;
 
     margin: 0 auto;
