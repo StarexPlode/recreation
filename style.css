@@ -58,6 +58,8 @@
 }
 .right img {
     display: none;
+
+    width: 80px;
 }
 .card {
     display: grid;
