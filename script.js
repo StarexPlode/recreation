@@ -1,9 +1,9 @@
 const form = document.querySelector("#myForm")
-const button = document.querySelector("#sub")
+const button = document.querySelector ("#sub")
 
 let state = "idle";
 
-function RenderButton() {
+function renderButton() {
     if (state === "idle") {
         button.textContent = "Submit";
         button.disabled = !form.checkValidity();
@@ -13,28 +13,39 @@ function RenderButton() {
         button.disabled = true;
     }
     if (state === "submitted") {
-        button.textContent = "Submitted!"
+        button.textContent = "Submitted!";
         button.disabled = true;
     }
 }
+
 form.addEventListener("input", function () {
-    if (state === "idle")
-    RenderButton();
+    renderButton();
 })
 
 button.addEventListener("click", function () {
-    if (state !== "idle") return;
-
+    
     state = "submitting";
-    RenderButton();
+    renderButton();
 
-    setTimeout(function() {
+    setTimeout(function () {
         state = "submitted";
-        RenderButton();
+        renderButton();
 
-        setTimeout(function() {
+        setTimeout(function () {
             state = "idle";
-            RenderButton();
-        }, 3000)
+            renderButton();
+        }, 2000)
     }, 2000)
+})
+
+const theme = document.querySelector("#theme");
+const body = document.querySelector("#bady");
+
+function themeToggle() {
+    body.style.backgroundColor = "#888"
+    console.dir(body);
+}
+
+theme.addEventListener("click", function() {
+    themeToggle()
 })
