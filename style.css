@@ -232,6 +232,10 @@ body {
 .forms button:hover {
     transform: scale(1.02)
 }
+.forms button:disabled {
+    background-color: #67b3ff;
+    color: black;
+}
 @media screen and (max-width: 768px) {
     .page {
         grid-template-columns: 1fr;
