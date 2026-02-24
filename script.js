@@ -45,7 +45,9 @@ function themeToggle() {
     body.style.backgroundColor = "#888"
     console.dir(body);
 }
-
+function themeToggle2 () {
+    body.classList.toggle("dark");
+}
 theme.addEventListener("click", function() {
-    themeToggle()
+    themeToggle2()
 })

@@ -7,6 +7,9 @@
 body {
     font-size: 100%;
 }
+.dark {
+    background-color: #888;
+}
 .page {
     display: grid;
     grid-template-columns: 1fr 1fr;
