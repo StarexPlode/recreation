@@ -233,8 +233,8 @@ body {
     transform: scale(1.02)
 }
 .forms button:disabled {
-    background-color: #67b3ff;
-    color: black;
+    background-color: #a8a8a8;
+    color: white;
 }
 @media screen and (max-width: 768px) {
     .page {
