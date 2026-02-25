@@ -34,5 +34,5 @@ button.addEventListener("click", () => {
             state = "idle";
             buttonRender();
         }, 2000)
-    }, 2000)
+    }, 3000)
 })

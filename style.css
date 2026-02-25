@@ -232,6 +232,7 @@ body {
 
     background-color: #2a94ff;
     font-weight: 900;
+    color: white;
 
     transition: 0.2s ease;
 }
@@ -241,18 +242,6 @@ body {
 .forms button:disabled {
     background-color: #a8a8a8;
     color: white;
-}
-.themetoggle button {
-    padding: 0.8rem;
-    border: 2px solid black;
-    border-radius: 0.5rem;
-
-    background-color: white;
-
-    transition: 0.5s ease;
-}
-.themetoggle button:active {
-    background-color: rgb(192, 192, 192);
 }
 @media screen and (max-width: 768px) {
     .page {
